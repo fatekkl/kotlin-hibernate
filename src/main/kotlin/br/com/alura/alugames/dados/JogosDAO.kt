@@ -3,7 +3,7 @@ package br.com.alura.alugames.dados
 import br.com.alura.alugames.modelo.Jogo
 import javax.persistence.EntityManager
 
-class JogosDAO(val manager: EntityManager) {
+class JogosDAO(private val manager: EntityManager) {
 
 
     fun getJogos(): List<Jogo> {
