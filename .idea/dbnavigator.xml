@@ -17,14 +17,13 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="c2c5c7e9-c941-4ab4-97df-d7d3d54a0eef">
-      <console name="Connection" type="STANDARD" schema="alugames" session="Main"><![CDATA[select
-    j.capa,
-    j.descricao,
-    j.id,
-    j.preco,
-    j.titulo
-from
-    jogos j;]]></console>
+      <console name="Connection" type="STANDARD" schema="alugames" session="Main"><![CDATA[--CREATE TABLE gamers (
+--    id INT AUTO_INCREMENT PRIMARY KEY,
+--    nome VARCHAR(255),
+--    email VARCHAR(255),
+--    dataNascimento VARCHAR(255),
+--    usuario VARCHAR(255)
+--)]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
