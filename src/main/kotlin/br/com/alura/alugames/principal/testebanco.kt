@@ -12,9 +12,9 @@ fun main() {
 
     val jogoDAO = JogosDAO(manager)
 
-    jogoDAO.adicionarJogo(jogo)
+    jogoDAO.adicionar(jogo)
 
-    val listaJogos: List<Jogo> = jogoDAO.getJogos()
+    val listaJogos: List<Jogo> = jogoDAO.getLista()
 
     println(listaJogos)
 
