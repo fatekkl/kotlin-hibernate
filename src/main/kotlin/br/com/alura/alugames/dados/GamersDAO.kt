@@ -1,7 +1,6 @@
 package br.com.alura.alugames.dados
 
 import br.com.alura.alugames.modelo.Gamer
-import br.com.alura.alugames.modelo.Jogo
 import javax.persistence.EntityManager
 
 class GamersDAO(manager: EntityManager): DAO<Gamer, GamerEntity>(manager = manager, GamerEntity::class.java) {
