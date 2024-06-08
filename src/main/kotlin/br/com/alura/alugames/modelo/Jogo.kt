@@ -1,7 +1,11 @@
 package br.com.alura.alugames.modelo
 
 import com.google.gson.annotations.Expose
-
+import javax.persistence.Entity
+import javax.persistence.GeneratedValue
+import javax.persistence.GenerationType
+import javax.persistence.Id
+import javax.persistence.Table
 
 data class Jogo(@Expose val titulo:String,
                 @Expose val capa:String): Recomendavel {
