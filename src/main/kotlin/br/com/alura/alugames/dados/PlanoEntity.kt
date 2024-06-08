@@ -3,8 +3,8 @@ package br.com.alura.alugames.dados
 import javax.persistence.*
 
 @Entity
-@Table (name = "planos")
-@Inheritance (strategy = InheritanceType.SINGLE_TABLE)
+@Table(name = "planos")
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "TipoPlano", discriminatorType = DiscriminatorType.STRING)
 sealed class PlanoEntity(val tipo: String)
 
